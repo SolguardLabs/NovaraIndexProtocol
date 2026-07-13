@@ -29,7 +29,7 @@ solo para pruebas locales.
 
 ## Dependencias
 
-Las dependencias Python estan fijadas en `requirements-dev.txt`. Dependabot cubre paquetes pip y
+Las dependencias Python estan fijadas en `requirements.txt`. Dependabot cubre paquetes pip y
 GitHub Actions.
 
 ## Reportes

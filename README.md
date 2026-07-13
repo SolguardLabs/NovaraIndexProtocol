@@ -22,14 +22,14 @@ controlada por keeper.
 ## Requisitos
 
 - Python 3.11 o superior.
-- Dependencias de `requirements-dev.txt`.
+- Dependencias de `requirements.txt`.
 
 Instalacion local recomendada:
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-python -m pip install -r requirements-dev.txt
+python -m pip install -r requirements.txt
 ```
 
 PowerShell:
@@ -37,7 +37,7 @@ PowerShell:
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements-dev.txt
+python -m pip install -r requirements.txt
 ```
 
 ## Tests
