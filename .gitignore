@@ -7,7 +7,6 @@ __pycache__/
 .pytest_cache/
 .coverage
 htmlcov/
-pyxis_credit_protocol.egg-info
 .ruff_cache
 
 # Dependencias y herramientas auxiliares
@@ -26,6 +25,3 @@ dist/
 # Sistema operativo
 .DS_Store
 Thumbs.db
-
-# Documentación interna
-vulnerability.md

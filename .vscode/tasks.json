@@ -18,7 +18,7 @@
     {
       "label": "CI",
       "type": "shell",
-      "command": "python scripts/compile_vyper.py; python -m ruff check tests scripts; python -m pytest -q",
+      "command": "bash scripts/ci.sh",
       "group": "build",
       "problemMatcher": []
     }
