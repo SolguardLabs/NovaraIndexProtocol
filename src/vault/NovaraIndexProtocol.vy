@@ -187,7 +187,7 @@ def add_component(
 
 
 @external
-def add_component_unchecked(
+def add_component_with_modes(
     _token: address,
     _weight_bps: uint256,
     _mint_enabled: bool,

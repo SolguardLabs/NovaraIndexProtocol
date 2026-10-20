@@ -10,4 +10,5 @@ fi
 
 "$PYTHON_BIN" scripts/compile_vyper.py
 "$PYTHON_BIN" -m ruff check tests scripts
+"$PYTHON_BIN" -m ruff format --check tests scripts
 "$PYTHON_BIN" -m pytest -q
